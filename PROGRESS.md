@@ -14,9 +14,9 @@ Core if time runs short: Phases 0–6 + 10. Cut 11, then 9, then trim 8.
 Done when: fresh clone + `docker compose up` → `/health` returns ok
 
 - [X] Fix repo layout (repo root holds `CLAUDE.md`, `PROGRESS.md`, code — no nested folder)
-- [ ] Branch `phase-00-setup` created
-- [ ] `uv` project initialised, pinned to Python 3.12
-- [ ] Dependencies added: FastAPI, Uvicorn (runtime); pytest, httpx, ruff (dev)
+- [X] Branch `phase-00-setup` created
+- [X] `uv` project initialised, pinned to Python 3.12
+- [X] Dependencies added: FastAPI, Uvicorn (runtime); pytest, httpx, ruff (dev)
 - [ ] App package with a `GET /health` route
 - [ ] Runs locally with Uvicorn; `/health` returns ok; `/docs` loads
 - [ ] Settings read from environment (pydantic-settings) + `.env.example` committed, `.env` ignored
