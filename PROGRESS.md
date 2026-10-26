@@ -19,7 +19,7 @@ Done when: fresh clone + `docker compose up` → `/health` returns ok
 - [X] Dependencies added: FastAPI, Uvicorn (runtime); pytest, httpx, ruff (dev)
 - [X] App package with a `GET /health` route
 - [X] Runs locally with Uvicorn; `/health` returns ok; `/docs` loads
-- [ ] Settings read from environment (pydantic-settings) + `.env.example` committed, `.env` ignored
+- [X] Settings read from environment (pydantic-settings) + `.env.example` committed, `.env` ignored
 - [ ] `Dockerfile` for the API
 - [ ] `docker-compose.yml` with `api` + `db` (PostgreSQL)
 - [ ] `ruff check` passes
