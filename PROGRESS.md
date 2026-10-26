@@ -17,10 +17,10 @@ Done when: fresh clone + `docker compose up` → `/health` returns ok
 - [X] Branch `phase-00-setup` created
 - [X] `uv` project initialised, pinned to Python 3.12
 - [X] Dependencies added: FastAPI, Uvicorn (runtime); pytest, httpx, ruff (dev)
-- [ ] App package with a `GET /health` route
-- [ ] Runs locally with Uvicorn; `/health` returns ok; `/docs` loads
-- [ ] Settings read from environment (pydantic-settings) + `.env.example` committed, `.env` ignored
-- [ ] `Dockerfile` for the API
+- [X] App package with a `GET /health` route
+- [X] Runs locally with Uvicorn; `/health` returns ok; `/docs` loads
+- [X] Settings read from environment (pydantic-settings) + `.env.example` committed, `.env` ignored
+- [X] `Dockerfile` for the API
 - [ ] `docker-compose.yml` with `api` + `db` (PostgreSQL)
 - [ ] `ruff check` passes
 - [ ] Fresh clone in a new folder → `docker compose up` → `/health` ok
