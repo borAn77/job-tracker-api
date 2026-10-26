@@ -20,7 +20,7 @@ Done when: fresh clone + `docker compose up` → `/health` returns ok
 - [X] App package with a `GET /health` route
 - [X] Runs locally with Uvicorn; `/health` returns ok; `/docs` loads
 - [X] Settings read from environment (pydantic-settings) + `.env.example` committed, `.env` ignored
-- [ ] `Dockerfile` for the API
+- [X] `Dockerfile` for the API
 - [ ] `docker-compose.yml` with `api` + `db` (PostgreSQL)
 - [ ] `ruff check` passes
 - [ ] Fresh clone in a new folder → `docker compose up` → `/health` ok
